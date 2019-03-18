@@ -8,6 +8,9 @@ import localEthereumLogo from '../images/localethereum.svg';
 import makerLogo from '../images/maker.png';
 import radarLogo from '../images/radar.png';
 import uniswapLogo from '../images/uniswap.svg';
+import synthetixExchangeLogo from '../images/synthetix-exchange.svg';
+import synthetixMintrLogo from '../images/synthetix-mintr.svg';
+
 
 import { Category } from './categories';
 import { IItem } from 'types';
@@ -58,6 +61,15 @@ const exchangeItems: IItem[] = [
     maxWidth: '100px',
     name: 'Radar',
     url: 'https://radarrelay.com/'
+  },
+  {
+    background: '#0B0B0B',
+    category: Category.EXCHANGE,
+    description: 'Trade Synthetic Assets. Get price exposure to Stocks, Cryptos, Currencies, Indicies & Commodities',
+    image: synthetixExchangeLogo,
+    maxWidth: '100px',
+    name: 'Synthetix Exchange',
+    url: 'https://synthetix.exchange/'
   }
 ];
 
@@ -108,6 +120,14 @@ const financeItems: IItem[] = [
     image: compoundLogo,
     name: 'Compound',
     url: 'https://compound.finance/'
+  },
+  {
+    background: '#18452B',
+    category: Category.FINANCE,
+    description: 'Mint stable coin sUSD and earn fees on the usage of your coins',
+    image: mintrLogo,
+    name: 'Synthetix Mintr',
+    url: 'https://mintr.synthetix.io'
   }
 ];
 
